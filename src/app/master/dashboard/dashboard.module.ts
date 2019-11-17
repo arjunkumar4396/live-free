@@ -12,6 +12,7 @@ import { SanitaryPadsComponent } from './our-models/sanitary-pads/sanitary-pads.
 import { OurInitiativesComponent } from './our-models/our-initiatives/our-initiatives.component';
 import { OurImpactComponent } from './impact/our-impact/our-impact.component';
 import { DashboardRoutingModule } from './dashboard.routing.module';
+import { FaqComponent } from './contacts/faq/faq.component';
 
 @NgModule({
     declarations: [
@@ -26,7 +27,8 @@ import { DashboardRoutingModule } from './dashboard.routing.module';
         MenstruationChallengesComponent,
         SanitaryPadsComponent,
         OurInitiativesComponent,
-        OurImpactComponent
+        OurImpactComponent,
+        FaqComponent
     ],
     imports: [
         DashboardRoutingModule
