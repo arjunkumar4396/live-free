@@ -1,27 +1,91 @@
 <div class="container-fluid">
-        <div class="row">
-            <div class="col-2"></div>
-            <div class="col-8">
-                <ul class="nav">
-                    <li class="nav-item">
-                    <a href="">Home</a>
-                    </li>
-                    <li class="nav-item">
-                            <a href="">About</a>
-                    </li>
-                    <li class="nav-item">
-                            <a href="">Our Model</a>
-                    </li>
-                    <li class="nav-item">
-                            <a href="">Impact</a>
-                    </li>
-                    <li class="nav-item">
-                            <a href="">Contact</a>
-                    </li>
-                    <!-- <li class="nav-item">Home</li> -->
-                    <!-- <li class="nav-item">Home</li> -->
-                </ul>
-            </div>
-            <div class="col-2"></div>
-        </div>
+        <header>
+                <nav class="navbar fixed-top navbar-expand-lg navbar-dark pink scrolling-navbar">
+                        <a class="navbar-brand" routerLink="/home"><strong>Navbar</strong></a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav mr-auto">
+                                        <li class="nav-item">
+                                                <a class="nav-link" href="" routerLink="/home">Home <span
+                                                                class="sr-only">(current)</span></a>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a class="nav-link" routerLink="/about-us">About</a>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                                <a class="nav-link " href="" id="navbarDropdownMenuLink"
+                                                        data-toggle="dropdown" aria-expanded="false">
+                                                        Our Model
+                                                </a>
+                                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                        <a class="dropdown-item"
+                                                                routerLink="/our-models/mensturation-challenges">Mensturation
+                                                                Challenges</a>
+                                                        <a class="dropdown-item"
+                                                                routerLink="/our-models/our-initiatives">Our
+                                                                Initiatives</a>
+                                                        <a class="dropdown-item"
+                                                                routerLink="/our-models/sanitary-pads">Sanitary Pads</a>
+                                                </div>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                                <a class="nav-link " href="" id="navbarDropdownMenuLink"
+                                                        data-toggle="dropdown" aria-expanded="false">
+                                                        Impact
+                                                </a>
+                                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                        <a class="dropdown-item" routerLink="/impact/our-impact">Our
+                                                                Impact</a>
+                                                        <!-- <a class="dropdown-item" href="#">Another action</a>
+                                                          <a class="dropdown-item" href="#">Something else here</a> -->
+                                                </div>
+                                        </li>
+                                        <li class="nav-item dropdown">
+                                                <a class="nav-link " href="" id="navbarDropdownMenuLink"
+                                                        data-toggle="dropdown" aria-expanded="false">
+                                                        Contact
+                                                </a>
+                                                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                                                        <a class="dropdown-item" routerLink="/contact-us">Contact Us</a>
+                                                        <a class="dropdown-item" routerLink="/faq">FAQs</a>
+                                                        <!-- <a class="dropdown-item" href="#">Something else here</a> -->
+                                                </div>
+                                        </li>
+                                </ul>
+                                <ul class="navbar-nav nav-flex-icons">
+                                        <li class="nav-item">
+                                                <a class="nav-link"><i class="fab fa-facebook-f"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a class="nav-link"><i class="fab fa-twitter"></i></a>
+                                        </li>
+                                        <li class="nav-item">
+                                                <a class="nav-link"><i class="fab fa-instagram"></i></a>
+                                        </li>
+                                </ul>
+                        </div>
+                </nav>
+
+        </header>
+        <!--Main Navigation-->
+
+        <!--Main Layout-->
+        <main>
+                <div class="container" style="height:1300px;">
+                        <div class="row mt-5 pt-5">
+                                <div class="col text-center">
+                                        <h2>This Navbar is fixed</h2>
+                                        <h5>It will always stay visible on the top, even when you scroll down</h5>
+                                        <br>
+                                        <p>Full page intro with background image will be always displayed in full screen
+                                                mode, regardless of device </p>
+                                </div>
+                        </div>
+                </div>
+        </main>
+        <!--Main Layout-->
 </div>

@@ -1,0 +1,25 @@
+nav{
+    background-color: palevioletred;
+    height:15%;
+    font-weight: 600;
+    word-spacing: 20%;
+    
+}
+.dropdown:hover>.dropdown-menu  {
+    display: block;
+}
+
+.navbar-nav > li{
+    padding-left:30px;
+    padding-right:30px;
+    
+    
+  }
+  .navbar-collapse{
+    padding-left: 17%;
+    padding-right: 6%;
+  }
+
+  .navbar-dark .navbar-nav .nav-link{
+      color: white;
+  }
