@@ -1,0 +1,22 @@
+.page-footer{
+    background-color: palevioletred;
+    color: white;
+}
+
+.lower-footer{
+    height:50px;
+    color: white;
+    background-color: rgb(245, 52, 117);
+}
+.list-inline{
+    text-align: center;
+}
+.list-inline li img{
+    margin-top:  20px;
+    height: 35px;
+    width: 35px;
+}
+.footer{
+    height: 200px;
+    background-color: palevioletred;
+}
